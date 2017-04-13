@@ -13,7 +13,8 @@ public class CheckPermutation {
 		//return array.equals(array2); 没有指向同一内存地址
 		return Arrays.equals(array, array2);
 	}
-	
+    
+    
 	//check if two strings have identical character counts
 	public static boolean solution2(String s, String t) {
 		if (s.length() != t.length()) {
