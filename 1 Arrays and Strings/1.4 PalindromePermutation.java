@@ -40,6 +40,7 @@ public class PalindromePermutation {
 		}
 		return oddCount <= 1;
 	}
+    
 	public static void main(String[] args) {
 		System.out.println(solution("googleela"));
 		System.out.println(solution2("googleelab"));
