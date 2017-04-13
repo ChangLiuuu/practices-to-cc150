@@ -24,7 +24,6 @@ public class IsUnique {
 		}
 		return true;
 	}
-	
 	// sort then check neighboring characters
 	public static boolean solution3(String s) {
 		char[] array = s.toCharArray();
