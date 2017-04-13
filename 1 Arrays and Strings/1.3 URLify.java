@@ -39,6 +39,7 @@ public class URLify {
 		}
 		return new String(res);
 	}
+    
 	public static void main(String[] args) {
 		System.out.println(replaceSpaces("Mr S M   ", 7));
 		System.out.println(repleaceSpaces2("Mr S M   ", 6));
