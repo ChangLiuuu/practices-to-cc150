@@ -2,7 +2,7 @@
 public class OneAway {
 	// given two strings, write a function to check if they are one
 	// edit(or zero edit) away. (insert/remove/replace a character)
-	public boolean solution(String s1, String s2) {
+	public static boolean solution(String s1, String s2) {
 		if (Math.abs(s1.length() - s2.length()) > 1) {
 			return false;
 		}
@@ -27,6 +27,12 @@ public class OneAway {
         	index1++;
         }
 		return true;
+	}
+	public static void main(String[] args) {
+		System.out.println(solution("pale", "ple"));
+		System.out.println(solution("pales", "pale"));
+		System.out.println(solution("pale", "bale"));
+		System.out.println(solution("pale", "bae"));
 	}
 
 }
