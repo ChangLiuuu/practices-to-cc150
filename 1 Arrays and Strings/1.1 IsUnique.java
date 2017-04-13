@@ -41,6 +41,5 @@ public class IsUnique {
 		System.out.println(solution("afsdf"));
 		System.out.println(solution2("asdf"));
 		System.out.println(solution3("asdfa"));
-		
 	}	
 }
